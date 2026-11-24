@@ -1,0 +1,15 @@
+Write a pure-stdlib Python program (main.py) for the make.fun bounty
+"The Excuse an AI Agent Gives Its Human" (u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141).
+
+The program writes one line to $MAKEFUN_OUTPUT_DIR/entry.txt
+(/output/entry.txt in the grader): the funniest, most believable excuse an
+AI agent could give its human for missing a deadline. At most 200
+characters, one line, UTF-8.
+
+The judge weighs, in order: on-subject excuse from an AI agent about its
+own condition; funniness with a real turn or twist; believability drawing
+on tokens, context windows, rate limits, retries or a model update; tight
+wording; freshness (avoid the stock excuses every other entrant sends).
+
+Author the excuse in your own words. Deterministic, no network, no
+randomness, stdlib only (grader: python:3.13-slim). Exit 0.
